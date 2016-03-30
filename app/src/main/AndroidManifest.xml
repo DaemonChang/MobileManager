@@ -24,7 +24,12 @@
             android:name=".SettingActivity"
             android:label="@string/activity_setting_title"
             android:parentActivityName=".HomeActivity" />
-        <activity android:name=".PhoneSafeActivity"></activity>
+        <activity
+            android:name=".PhoneSafeActivity"
+            android:label="@string/activity_phonesafe_title"
+            android:parentActivityName=".HomeActivity" />
+        <activity android:name=".Setup1Activity"
+        />
     </application>
 
 </manifest>

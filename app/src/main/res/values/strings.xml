@@ -3,5 +3,25 @@
     <string name="activity_setting_title">设置中心</string>
     <string name="setting_autoUpdate">自动更新</string>
     <string name="setting_number_location">号码归属地</string>
-    <string name="setting_open">已开启</string>
+    <string name="ok">确认</string>
+    <string name="no">取消</string>
+    <string name="password_input">请输入要设置密码</string>
+    <string name="password_input_again">再次输入密码</string>
+    <string name="password_login">请输入密码</string>
+    <string name="setting_password">设置密码</string>
+    <string name="activity_phonesafe_title">手机防盗</string>
+    <string name="setup1_desc1">欢迎来到设置向导，请按提示完成设置，以便开启以下功能。</string>
+    <string name="setup1_function1">Sim卡变更报警</string>
+    <string name="setup1_function2">GPS追踪</string>
+    <string name="setup1_function3">远程锁屏</string>
+    <string name="setup1_function4">远程抹除数据</string>
+    <string name="nextpage">next</string>
+    <string name="backpage">back</string>
+    <string name="lastpage">Done</string>
+    <string name="setup2_desc1">绑定Sim卡：\n当手机开机时检测到Sim卡发生变化，将自动发送警示短信</string>
+    <string name="setup3_desc1">设置安全号码：\nSim卡发生变化后，会自动发送短信给以下的号码</string>
+    <string name="setup3_desc2">点击下面按钮选择安全号码</string>
+    <string name="setup3_desc3">选择联系人</string>
+    <string name="setup4_desc1">即将完成设置！</string>
+    <string name="setup4_desc2">开启防盗保护功能</string>
 </resources>

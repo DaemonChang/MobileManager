@@ -23,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/si_setting_numberlocation"
-        settingitem:item_title="@string/setting_number_location"
+        settingitem:item_title="显示号码归属地"
         settingitem:sp_keyname="showLocation">
     </com.daemon.mobile.view.SettingItem>
 
