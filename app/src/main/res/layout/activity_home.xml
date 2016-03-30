@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.daemon.mobile.mobilemanager.HomeActivity"
+    >
+
+    <ImageView
+       style="@style/MyActivityTitle"
+        android:src="@drawable/ic_home_black_36dp"
+        android:layout_marginBottom="40dp"/>
+
+    <GridView
+        android:id="@+id/gv_Home_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3"
+        >
+
+    </GridView>
+
+
+
+
+</LinearLayout>

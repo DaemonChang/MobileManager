@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MobileManager</string>
+    <string name="activity_setting_title">设置中心</string>
+    <string name="setting_autoUpdate">自动更新</string>
+    <string name="setting_number_location">号码归属地</string>
+    <string name="setting_open">已开启</string>
+</resources>

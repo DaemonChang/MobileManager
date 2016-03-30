@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:settingitem = "http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.daemon.mobile.mobilemanager.SettingActivity">
+
+    <ImageView
+        style="@style/MyActivityTitle"
+        android:src="@drawable/ic_settings_black_36dp"/>
+
+    <com.daemon.mobile.view.SettingItem
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/si_setting_update"
+        settingitem:item_title="自动更新"
+        settingitem:sp_keyname="autoUpdate">
+    </com.daemon.mobile.view.SettingItem>
+
+    <com.daemon.mobile.view.SettingItem
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/si_setting_numberlocation"
+        settingitem:item_title="@string/setting_number_location"
+        settingitem:sp_keyname="showLocation">
+    </com.daemon.mobile.view.SettingItem>
+
+
+</LinearLayout>
