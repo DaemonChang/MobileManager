@@ -19,8 +19,9 @@
     <string name="backpage">back</string>
     <string name="lastpage">Done</string>
     <string name="setup2_desc1">绑定Sim卡：\n当手机开机时检测到Sim卡发生变化，将自动发送警示短信</string>
+    <string name="setup2_desc2">点击绑定/解绑Sim卡</string>
     <string name="setup3_desc1">设置安全号码：\nSim卡发生变化后，会自动发送短信给以下的号码</string>
-    <string name="setup3_desc2">点击下面按钮选择安全号码</string>
+    <string name="setup3_desc2">输入号码/点击下面按钮选择安全号码</string>
     <string name="setup3_desc3">选择联系人</string>
     <string name="setup4_desc1">即将完成设置！</string>
     <string name="setup4_desc2">开启防盗保护功能</string>
