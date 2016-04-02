@@ -1,12 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.daemon.mobile.mobilemanager.PhoneSafeActivity">
 
     <ImageView
        style="@style/MyActivityTitle"
         android:src="@drawable/ic_phonelink_lock_black_36dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
 
-</RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phonesafe_desc1"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_phonesafe_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E3F2FD"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phonesafe_desc2"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:id="@+id/iv_phonesafe_islock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:alpha="0.8"
+            android:background="#E3F2FD"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/phonesafe_desc3"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:background="#607D8B"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_beach_access_black_18dp"
+        android:text="@string/phonesafe_desc4"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:background="#B2DFDB"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_beach_access_black_18dp"
+        android:text="@string/phonesafe_desc5"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:padding="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_beach_access_black_18dp"
+        android:text="@string/phonesafe_desc6"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:background="#B2DFDB"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_beach_access_black_18dp"
+        android:text="@string/phonesafe_desc7"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:padding="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_beach_access_black_18dp"
+        android:text="@string/phonesafe_desc8"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:background="#B2DFDB"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_android_white_48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"/>
+    <Button
+        android:id="@+id/bt_phonesafe_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/phonesafe_desc9"
+        android:background="#FF80AB"
+        android:onClick="resetSetup"/>
+
+
+</LinearLayout>

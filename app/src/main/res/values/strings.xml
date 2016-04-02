@@ -10,6 +10,15 @@
     <string name="password_login">请输入密码</string>
     <string name="setting_password">设置密码</string>
     <string name="activity_phonesafe_title">手机防盗</string>
+    <string name="phonesafe_desc1">安全联系人号码：</string>
+    <string name="phonesafe_desc2">防盗保护是否开启：</string>
+    <string name="phonesafe_desc3">功能列表：</string>
+    <string name="phonesafe_desc4">Sim卡变更报警</string>
+    <string name="phonesafe_desc5">gps追踪: #*gps*#</string>
+    <string name="phonesafe_desc6">远程抹除数据: #*wipedata*#</string>
+    <string name="phonesafe_desc7">远程锁屏: #*lockscreen*#</string>
+    <string name="phonesafe_desc8">播放报警音: #*alarm*#</string>
+    <string name="phonesafe_desc9">重新进入设置向导</string>
     <string name="setup1_desc1">欢迎来到设置向导，请按提示完成设置，以便开启以下功能。</string>
     <string name="setup1_function1">Sim卡变更报警</string>
     <string name="setup1_function2">GPS追踪</string>
@@ -25,4 +34,5 @@
     <string name="setup3_desc3">选择联系人</string>
     <string name="setup4_desc1">即将完成设置！</string>
     <string name="setup4_desc2">开启防盗保护功能</string>
+
 </resources>
