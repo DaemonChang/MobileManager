@@ -17,7 +17,7 @@ public class HttpUtils {
 
         ByteArrayOutputStream os = new ByteArrayOutputStream();//保存在内存中
 
-        byte[] bytes = new byte[1024];
+        byte[] bytes = new byte[1024*5];
         int length ;
 
         try {

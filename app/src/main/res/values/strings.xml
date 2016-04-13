@@ -35,4 +35,9 @@
     <string name="setup4_desc1">即将完成设置！</string>
     <string name="setup4_desc2">开启防盗保护功能</string>
 
+    <string name="activity_sample_device_admin">设备管理员</string>
+    <string name="sample_device_admin">管理员</string>
+    <string name="sample_device_admin_description">开启设备管理员，否则部分功能无法正常开启</string>
+    <string name="mn_actionname_change">修改第一功能名</string>
+
 </resources>

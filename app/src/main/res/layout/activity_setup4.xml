@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.daemon.mobile.mobilemanager.Setup1Activity">
+
+    <ImageView
+        style="@style/MyActivityTitle"
+        android:src="@drawable/ic_looks_4_white_36dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setup4_desc1"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:padding="10dp"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="#B2DFDB">
+    </View>
+
+    <CheckBox
+        android:id="@+id/cb_setup4_protect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setup4_desc2"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:alpha="0.6">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_verified_user_black_24dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_verified_user_black_24dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_verified_user_black_24dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_verified_user_black_24dp"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="#B2DFDB">
+    </View>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/android_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_android_white_48dp"
+            android:layout_centerInParent="true"/>
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:layout_below="@+id/android_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:alpha="0.5">
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:src="@drawable/ic_panorama_fish_eye_black_18dp"/>
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:src="@drawable/ic_panorama_fish_eye_black_18dp"/>
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:src="@drawable/ic_panorama_fish_eye_black_18dp"/>
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:src="@drawable/ic_lens_black_18dp"
+                />
+
+
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:text="@string/backpage"
+            android:background="#FF80AB"
+            android:onClick="backPage"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:text="@string/lastpage"
+            android:background="#FF80AB"
+            android:onClick="nextPage"/>
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

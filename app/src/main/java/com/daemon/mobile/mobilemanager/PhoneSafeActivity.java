@@ -1,9 +1,12 @@
 package com.daemon.mobile.mobilemanager;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -12,7 +15,7 @@ import com.daemon.mobile.utils.MyConstants;
 import com.daemon.mobile.utils.ServiceUtils;
 import com.daemon.mobile.utils.SpTools;
 
-public class PhoneSafeActivity extends ActionBarActivity {
+public class PhoneSafeActivity extends Activity {
 
     private TextView tv_safeNumber;
     private ImageView iv_isLock;
@@ -73,5 +76,26 @@ public class PhoneSafeActivity extends ActionBarActivity {
 
     }
 
+    /**
+     * 点击菜单时会调用
+     * @param menu
+     * @return
+     */
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
 
+    }
+
+    /**
+     * 处理菜单事件
+     * @param featureId
+     * @param item
+     * @return
+     */
+    @Override
+    public boolean onMenuItemSelected(int featureId, MenuItem item) {
+        return super.onMenuItemSelected(featureId, item);
+    }
 }
